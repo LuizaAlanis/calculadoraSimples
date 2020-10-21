@@ -1,6 +1,5 @@
 <h1> Calculadora simples </h1>
 <h2> PHP </h2>
-<img src="https://github.com/LuizaAlanis/calculadoraSimples/blob/main/imagem.PNG">
 <h3> :coffee: Como instalar? </h3>
   <ul>
     <li> Faça o download desse projeto </li>
@@ -12,3 +11,6 @@
   
 <h3> :warning: OBS.: </h3>
 <p> Se você digitar letras ou deixar a caixa de texto vazia você será redirecionado á página index! </p>
+
+<img src="https://github.com/LuizaAlanis/calculadoraSimples/blob/main/imagem.PNG">
+<img src="https://github.com/LuizaAlanis/calculadoraSimples/blob/main/imagem1.PNG">
