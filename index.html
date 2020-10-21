@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calculadora simples </title>
+        <script language="JavaScript">
+            function limpar()
+            {
+                document.getElementById("val1").focus();
+            }
+        </script>
+    </head>
+    <body>
+
+    <form method="post" action="soma.php">
+        <div class="animated animatedFadeInUp fadeInUp">
+            <h1>Calculadora simples</h1>
+        </div>
+        <div class="animated animatedFadeInUp fadeInUp">
+            <h2>Digite o primeiro valor</h2>
+            <p><input id="val1" name="txtval1" type="text" class="textbox"/></p>
+        </div>
+        <div class="animated animatedFadeInUp fadeInUp">
+            <h2>Digite o segundo valor</h2>
+            <p><input id="val2" name="txtval2" type="text" class="textbox"/></p>
+        </div>
+        <div class="animated animatedFadeInUp fadeInUp">
+            <h2>Escolha uma opção</h2>
+            <p>
+                <input type="submit" value="SOMA" class="button"/> 
+                <input type="reset" value="LIMPAR" onClick="limpar()"  class="button"/>
+            </p>
+        </div>
+    </form>
+    <div class="animated animatedFadeInUp fadeInUp">
+        <h3> Luiza Alanis - 2°modular </h3>
+    </div>
+    </body>
+</html>
